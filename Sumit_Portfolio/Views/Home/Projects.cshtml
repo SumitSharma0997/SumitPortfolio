@@ -1,0 +1,150 @@
+@model List<Sumit_Portfolio.Models.Project>
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<!-- Projects Hero Section -->
+<section class="section" style="padding-top: 120px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="section-title">My Projects</h1>
+                <p class="lead mb-5">
+                    A showcase of my recent work and development projects
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Filter -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Applications</button>
+                    <button class="filter-btn" data-filter="api">APIs</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Projects Grid -->
+        <div class="row projects-grid">
+            @if (Model != null)
+            {
+                @foreach (var project in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-5 project-item" data-category="web fullstack">
+                        <div class="project-card fade-in-up">
+                            <div class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="@project.DemoUrl" target="_blank" data-bs-toggle="tooltip" title="Live Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="@project.GitHubUrl" target="_blank" data-bs-toggle="tooltip" title="Source Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectModal@(Model.IndexOf(project))" data-bs-toggle="tooltip" title="View Details">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <i class="fas fa-laptop-code" style="font-size: 4rem; color: rgba(255,255,255,0.8);"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h5 class="project-title">@project.Title</h5>
+                                <p class="project-description">@project.Description</p>
+                                <div class="project-tech">
+                                    <i class="fas fa-tags me-1"></i>@project.Technologies
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Project Modals -->
+@if (Model != null)
+{
+    @foreach (var project in Model)
+    {
+        <div class="modal fade" id="projectModal@(Model.IndexOf(project))" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">@project.Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project-modal-image">
+                                    <div class="modal-project-bg">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Project Overview</h6>
+                                <p>@project.Description</p>
+                                
+                                <h6>Technologies Used</h6>
+                                <div class="tech-stack">
+                                    @foreach (var tech in project.Technologies.Split(','))
+                                    {
+                                        <span class="tech-badge">@tech.Trim()</span>
+                                    }
+                                </div>
+                                
+                                <h6 class="mt-3">Key Features</h6>
+                                <ul class="feature-list">
+                                    <li>Responsive design with Bootstrap</li>
+                                    <li>RESTful API integration</li>
+                                    <li>Database optimization</li>
+                                    <li>User authentication & authorization</li>
+                                    <li>Real-time data processing</li>
+                                </ul>
+                                
+                                <div class="project-links mt-4">
+                                    <a href="@project.DemoUrl" class="btn btn-primary me-2" target="_blank">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                    <a href="@project.GitHubUrl" class="btn btn-outline-primary" target="_blank">
+                                        <i class="fab fa-github me-2"></i>Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<!-- Call to Action -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-title">Have a Project in Mind?</h2>
+                <p class="lead mb-4">
+                    I'm always excited to work on new challenges and bring innovative ideas to life. 
+                    Let's discuss how we can work together to create something amazing.
+                </p>
+                <a href="@Url.Action("Contact", "Home")" class="btn-custom btn-lg">
+                    <i class="fas fa-handshake me-2"></i>Let's Collaborate
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,191 @@
+@{
+    ViewData["Title"] = "About";
+    var personalInfo = ViewBag.PersonalInfo as Sumit_Portfolio.Models.PersonalInfo;
+    var experiences = ViewBag.Experiences as List<Sumit_Portfolio.Models.Experience>;
+    var education = ViewBag.Education as List<Sumit_Portfolio.Models.Education>;
+}
+
+<!-- About Hero Section -->
+<section class="section" style="padding-top: 120px;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="about-content fade-in-up">
+                    <h1 class="section-title text-start">About Me</h1>
+                    <p class="lead mb-4">@personalInfo?.Summary</p>
+                    <p class="mb-4">
+                        I'm a passionate software developer with extensive experience in building robust, 
+                        scalable web applications using modern technologies. My expertise spans across 
+                        full-stack development with a strong focus on .NET technologies, database design, 
+                        and creating intuitive user experiences.
+                    </p>
+                    <div class="about-stats row">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-item text-center">
+                                <div class="stat-number" data-count="3">1.6</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-item text-center">
+                                <div class="stat-number" data-count="50">4</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-item text-center">
+                                <div class="stat-number" data-count="25">1</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-item text-center">
+                                <div class="stat-number" data-count="10">2</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-image text-center slide-in-right">
+                    <div class="image-container">
+                        <div class="about-img-bg">
+                            @if(!string.IsNullOrEmpty(personalInfo?.PhotoUrl))
+                            {
+                                <img src="@personalInfo.PhotoUrl" alt="@personalInfo.Name" class="about-photo" />
+                            }
+                            else
+                            {
+                                <i class="fas fa-laptop-code"></i>
+                            }
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="top: 10%; left: 10%;">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-icon" style="top: 20%; right: 15%;">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-icon" style="bottom: 30%; left: 20%;">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-icon" style="bottom: 15%; right: 10%;">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                @if (experiences != null)
+                {
+                    @foreach (var experience in experiences)
+                    {
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">@experience.Duration</div>
+                            <h4 class="timeline-title">@experience.JobTitle</h4>
+                            <div class="timeline-company">
+                                <i class="fas fa-building me-2"></i>@experience.Company
+                            </div>
+                            <p class="timeline-description">@experience.Description</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Education</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                @if (education != null)
+                {
+                    @foreach (var edu in education)
+                    {
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">@edu.Year</div>
+                            <h4 class="timeline-title">@edu.Degree</h4>
+                            <div class="timeline-company">
+                                <i class="fas fa-graduation-cap me-2"></i>@edu.Institution
+                            </div>
+                            <div class="timeline-grade">
+                                <i class="fas fa-medal me-2"></i>Grade: @edu.Grade
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Personal Interests -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">What I Love</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="interest-card text-center fade-in-up">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h5>Clean Code</h5>
+                    <p>Writing maintainable, efficient, and well-documented code that follows best practices.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="interest-card text-center fade-in-up">
+                    <div class="interest-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h5>Problem Solving</h5>
+                    <p>Tackling complex challenges and finding innovative solutions to real-world problems.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="interest-card text-center fade-in-up">
+                    <div class="interest-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h5>Collaboration</h5>
+                    <p>Working with teams to build amazing products and sharing knowledge with fellow developers.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="interest-card text-center fade-in-up">
+                    <div class="interest-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h5>Innovation</h5>
+                    <p>Staying updated with latest technologies and implementing cutting-edge solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

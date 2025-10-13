@@ -1,0 +1,171 @@
+@model List<Sumit_Portfolio.Models.Skill>
+@{
+    ViewData["Title"] = "Skills";
+}
+
+<!-- Skills Hero Section -->
+<section class="section" style="padding-top: 120px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="section-title">Technical Skills</h1>
+                <p class="lead mb-5">
+                    A comprehensive overview of my technical expertise and proficiency levels
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills by Category -->
+<section class="section bg-light">
+    <div class="container">
+        @if (Model != null)
+        {
+            var skillCategories = Model.GroupBy(s => s.Category).ToList();
+            
+            @foreach (var category in skillCategories)
+            {
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <i class="fas @GetCategoryIcon(category.Key) me-3"></i>
+                            @category.Key
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var skill in category)
+                    {
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="skill-item fade-in-up">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <span>@skill.Name</span>
+                                        <span class="skill-level">@skill.Level%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill-level="@skill.Level"></div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <hr class="my-5" style="border-color: rgba(233, 69, 96, 0.2); border-width: 2px;">
+            }
+        }
+    </div>
+</section>
+
+<!-- Skill Highlights -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Core Competencies</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="competency-card fade-in-up">
+                    <div class="competency-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h5>Backend Development</h5>
+                    <p>Expert in ASP.NET Core, C#, Web APIs, and server-side architecture design with focus on performance and scalability.</p>
+                    <div class="competency-skills">
+                        <span class="skill-tag">ASP.NET Core</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Web API</span>
+                        <span class="skill-tag">Entity Framework</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="competency-card fade-in-up">
+                    <div class="competency-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h5>Frontend Development</h5>
+                    <p>Proficient in creating responsive, interactive user interfaces using modern frontend technologies and frameworks.</p>
+                    <div class="competency-skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">jQuery</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="competency-card fade-in-up">
+                    <div class="competency-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h5>Database Management</h5>
+                    <p>Experienced in database design, optimization, and management with strong SQL skills and ORM frameworks.</p>
+                    <div class="competency-skills">
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">T-SQL</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">Database Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Learning Journey -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Continuous Learning</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="lead mb-5">
+                    I believe in continuous learning and staying updated with the latest technologies. 
+                    Here are some areas I'm currently exploring and improving:
+                </p>
+                <div class="learning-items">
+                    <div class="learning-item fade-in-up">
+                        <i class="fab fa-microsoft"></i>
+                        <span>.NET 8 & Minimal APIs</span>
+                    </div>
+                    <div class="learning-item fade-in-up">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud Technologies (Azure)</span>
+                    </div>
+                    <div class="learning-item fade-in-up">
+                        <i class="fab fa-docker"></i>
+                        <span>Containerization & Docker</span>
+                    </div>
+                    <div class="learning-item fade-in-up">
+                        <i class="fas fa-brain"></i>
+                        <span>AI & Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@functions {
+    string GetCategoryIcon(string category)
+    {
+        return category.ToLower() switch
+        {
+            "programming" => "fa-code",
+            "framework" => "fa-layer-group",
+            "database" => "fa-database",
+            "frontend" => "fa-paint-brush",
+            "tools" => "fa-tools",
+            "orm" => "fa-sitemap",
+            _ => "fa-cog"
+        };
+    }
+}

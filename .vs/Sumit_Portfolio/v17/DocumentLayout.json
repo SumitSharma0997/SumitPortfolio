@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\wwwroot\\css\\portfolio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\wwwroot\\css\\portfolio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\services\\iportfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\services\\iportfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\wwwroot\\js\\portfolio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\wwwroot\\js\\portfolio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|c:\\users\\sumit\\desktop\\sumit_portfolio\\sumit_portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC4D0F4-09C3-478D-96D9-95CCF881802C}|Sumit_Portfolio\\Sumit_Portfolio.csproj|solutionrelative:sumit_portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Skills.cshtml",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Views\\Home\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Skills.cshtml",
+              "RelativeToolTip": "Sumit_Portfolio\\Views\\Home\\Skills.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T09:58:45.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Program.cs",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Program.cs",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Program.cs",
+              "RelativeToolTip": "Sumit_Portfolio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:36:30.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\appsettings.json",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\appsettings.json",
+              "RelativeToolTip": "Sumit_Portfolio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T09:36:27.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "portfolio.css",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\wwwroot\\css\\portfolio.css",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\wwwroot\\css\\portfolio.css",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\wwwroot\\css\\portfolio.css",
+              "RelativeToolTip": "Sumit_Portfolio\\wwwroot\\css\\portfolio.css",
+              "ViewState": "AgIAAAgEAAAAAAAAAAAAAN8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-09T07:20:16.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Sumit_Portfolio\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T07:11:27.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Sumit_Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAADgvzYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T06:47:40.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Services\\PortfolioService.cs",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Services\\PortfolioService.cs",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Services\\PortfolioService.cs",
+              "RelativeToolTip": "Sumit_Portfolio\\Services\\PortfolioService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwIYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:47:36.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "portfolio.js",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\wwwroot\\js\\portfolio.js",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\wwwroot\\js\\portfolio.js",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\wwwroot\\js\\portfolio.js",
+              "RelativeToolTip": "Sumit_Portfolio\\wwwroot\\js\\portfolio.js",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAiwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-09T06:47:31.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Sumit_Portfolio\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T06:47:26.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sumit_Portfolio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T06:47:06.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Services\\IPortfolioService.cs",
+              "RelativeDocumentMoniker": "Sumit_Portfolio\\Services\\IPortfolioService.cs",
+              "ToolTip": "C:\\Users\\sumit\\Desktop\\Sumit_Portfolio\\Sumit_Portfolio\\Services\\IPortfolioService.cs",
+              "RelativeToolTip": "Sumit_Portfolio\\Services\\IPortfolioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:00:36.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
