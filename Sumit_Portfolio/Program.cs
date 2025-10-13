@@ -1,6 +1,10 @@
-using Sumit_Portfolio.Services;
+﻿using Sumit_Portfolio.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// 👇 ye line add ki gayi hai — Render.com ke PORT environment variable ke liye
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
