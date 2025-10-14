@@ -14,7 +14,7 @@ namespace Sumit_Portfolio.Services
                 Phone = "+91-9534649594",
                 Location = "Bihar Begusari, India",
                 Summary = "Experienced professional with expertise in .NET technologies, ASP.NET Core, C#, Core Api and Dynamic web development. Passionate about creating efficient and scalable web applications with strong problem-solving skills and attention to detail.",
-                PhotoUrl = "/Photo/Sumit2.png"
+                PhotoUrl = "/Photo/Sumit2.jpg"
             };
         }
 
