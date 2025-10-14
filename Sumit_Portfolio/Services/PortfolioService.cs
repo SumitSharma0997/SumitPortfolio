@@ -14,7 +14,7 @@ namespace Sumit_Portfolio.Services
                 Phone = "+91-9534649594",
                 Location = "Bihar Begusari, India",
                 Summary = "Experienced professional with expertise in .NET technologies, ASP.NET Core, C#, Core Api and Dynamic web development. Passionate about creating efficient and scalable web applications with strong problem-solving skills and attention to detail.",
-                PhotoUrl = "/Photo/Sumit.jpg"
+                PhotoUrl = "/Photo/Sumit2.png"
             };
         }
 
@@ -152,10 +152,10 @@ namespace Sumit_Portfolio.Services
                 },
                 new Project
                 {
-                    Title = "Medivolt",
+                    Title = "Medivault",
                     Description = "Developed a comprehensive medical records management system for maintaining patient records and uploading medical prescriptions. System allows healthcare providers to digitally manage patient data, store medical documents, and track patient history efficiently.",
                     Technologies = "ASP.NET Core, C#, SQL Server, Entity Framework, File Upload Management",
-                    ImageUrl = "/images/medivolt-project.jpg",
+                    ImageUrl = "/images/Medivault-project.jpg",
                     DemoUrl = "#",
                     GitHubUrl = "#"
                 }
