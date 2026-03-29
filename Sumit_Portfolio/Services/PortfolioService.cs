@@ -40,6 +40,7 @@ namespace Sumit_Portfolio.Services
             };
         }
 
+
         public List<Education> GetEducation()
         {
             return new List<Education>
